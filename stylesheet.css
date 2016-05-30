@@ -1,0 +1,319 @@
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('assets/fonts/crimsontext/CrimsonText-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('assets/fonts/yesevaone/YesevaOne-Regular.ttf');
+}
+
+body {
+	font-family: "Crimson Text", serif;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 55px;
+	line-height: 60px;
+	background-color: #1C6358;
+	box-shadow: 0 0 4px #333;
+}
+
+img#logo {
+	width: auto;
+	height: 45px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.topnav {
+	font-size: 12px;
+	font-family: sans-serif;
+	margin: 0 20px;
+	float: right;
+}
+
+.topnav ul {
+	margin: 0;
+}
+
+.topnav li {
+	display: inline-block;
+}
+
+.topnav a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 1em;
+}
+
+#spicebowls {
+	width: 100%;
+	height: 225px;
+	background-color: #333;
+	background-image: url(assets/images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	margin: 0;
+}
+
+.overlay {
+	width: 100%;
+	height: 225px;
+	background-color: rgba(51, 76, 90, 0.5);
+	background-size: cover;
+}
+
+#home-head {
+	margin: 0;
+	font-family: "Yeseva One", serif;
+	padding: 75px 0 0 55px;
+	text-shadow: 0 2px 3px #000;
+}
+
+#tagline {
+	font-family: "Crimson Text", serif;
+	font-size: 18px;
+	padding: 15px 0 0 55px;
+	text-shadow: 0 2px 3px #000;
+}
+
+main {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 45px 0 40px 0;
+}
+
+section.home-main {
+	display: inline-block;
+	width: 550px;
+	padding-right: 20px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 12px;
+}
+
+blockquote {
+	font-family: cursive;
+	font-size: 24px;
+	text-align: center;
+	color: #777;
+	margin: 30px 0 35px 0;
+}
+
+#graybox {
+	width: 550px;
+	height: 300px;
+	background-color: #ddd;
+	margin-right: 20px;
+}
+
+.column {
+	width: 143.3333px;
+	padding: 10px 20px;
+	float: left;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+aside {
+	display: inline-block;
+	width: 250px;
+	margin: 0;
+	padding-left: 20px;
+	float: left;
+}
+
+aside ul li {
+	font-size: 12px;
+	padding: 3px;
+}
+
+#secondright {
+	margin-top: 40px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #eee;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 50px;
+}
+
+small {
+	padding: 0 15px 0 20px;
+	float: left;
+}
+
+.bottomnav {
+	float: left;
+}
+
+.bottomnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.bottomnav li {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.bottomnav a {
+	color: #aaa;
+	display: inline-block;
+	padding: 0 0.75em;
+}
+
+/*About page*/
+
+#sub-head {
+	font-family: "Yeseva One", serif;
+	font-size: 24px;
+	margin-top: 0;
+}
+
+section.about {
+	display: inline-block;
+}
+
+div.line {
+	border-top: 1px solid #eee;
+	margin: 0 0 20px 0;
+}
+
+.larger {
+	font-size: 15px;
+}
+
+img#map {
+	width: 300px;
+	border-left: 1px solid #eee;
+	margin: 0 0 20px 15px;
+	padding-left: 10px;
+	float: right;
+}
+
+/*Shop page*/
+
+#shop-box {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 5px 0;
+	background-color: #eee;
+}
+
+#shop-head {
+	padding-left: 20px;
+	float: left;
+}
+
+.cart-items {
+	font-size: 12px;
+	line-height: 50px;
+}
+
+.cart-items img {
+	height: 20px;
+	margin: 15px 0 15px 0;
+	float: right;
+}
+
+.cart-items ul {
+	margin: 0;
+	padding: 0 0 0 10px;
+	float: right;
+}
+
+.cart-items li {
+	display: inline-block;
+}
+
+.cart-items a {
+	display: inline-block;
+	color: #4B0082;
+	padding: 0 1.5em 0 0;
+}
+
+span {
+	font-size: 15px;
+}
+
+.store-items {
+	margin: 0 auto;
+}
+
+.spice-merch {
+	width: 234px;
+	height: 220px;
+	background-color: #eee;
+	margin: 15px;
+	float: left;
+}
+
+.spice-merch img {
+	width: 210px;
+	margin: 12px 12px 0 12px;
+}
+
+.spice-price {
+	display: inline-block;
+	font-size: 10px;
+	margin: 7px 0 0 12px;
+}
+
+.spice-merch a {
+	color: #4B0082;
+	font-size: 12px;
+	margin: 8px 12px 0 0;
+	float: right;
+}
+
+/*Contact page*/
+
+form {
+	padding: 10px 15px;
+}
+
+#firstbox {
+	padding-right: 200px;
+	float: left;
+	clear: left;
+}
+
+label {
+	display: block;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+input[type="text"] {
+	width: 210px;
+	height: 24px;
+	margin-bottom: 15px;
+}
+
+textarea {
+	width: 100%;
+	height: 70px;
+	border-color: #ddd;
+}
