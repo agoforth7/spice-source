@@ -36,6 +36,10 @@ img#logo {
 	margin-left: 10px;
 }
 
+#ham-icon {
+	display: none;
+}
+
 .topnav {
 	font-size: 12px;
 	font-family: sans-serif;
@@ -79,28 +83,25 @@ img#logo {
 #home-head {
 	margin: 0;
 	font-family: "Yeseva One", serif;
-	padding: 75px 0 0 55px;
+	padding: 2.5em 0 0 1.75em;
 	text-shadow: 0 2px 3px #000;
 }
 
 #tagline {
 	font-family: "Crimson Text", serif;
 	font-size: 18px;
-	padding: 15px 0 0 55px;
+	padding: 1em 0 0 3.25em;
 	text-shadow: 0 2px 3px #000;
 }
 
 main {
-	box-sizing: border-box;
 	max-width: 875px;
 	margin: 0 auto;
-	padding: 45px 0 40px 0;
+	padding: 3em 0;
 }
 
 section.home-main {
-	box-sizing: border-box;
-	width: 66%;
-	padding-right: 20px;
+	padding-right: 1.5em;
 	border-right: 1px solid #ccc;
 	float: left;
 }
@@ -118,21 +119,19 @@ blockquote {
 	font-size: 24px;
 	text-align: center;
 	color: #777;
-	margin: 30px 0 35px 0;
+	margin: 1.5em 0;
 }
 
 #graybox {
 	box-sizing: border-box;
 	width: 100%;
 	background-color: #ddd;
-	margin-right: 20px;
+	margin-right: 1.5em;
 	overflow: scroll;
 }
 
-.column {
-	box-sizing: border-box;
-	width: 33%;
-	padding: 0 20px;
+.inner {
+	padding: 0 1.5em;
 	float: left;
 }
 
@@ -141,20 +140,18 @@ h3 {
 }
 
 aside {
-	box-sizing: border-box;
-	width: 33%;
 	margin: 0;
-	padding-left: 20px;
+	padding-left: 1.5em;
 	float: left;
 }
 
 aside ul li {
 	font-size: 12px;
-	padding: 3px;
+	padding: .25em;
 }
 
 #secondright {
-	margin-top: 40px;
+	margin-top: 3em;
 }
 
 footer {
@@ -166,7 +163,7 @@ footer {
 }
 
 small {
-	padding: 0 15px 0 20px;
+	padding: 0 1em 0 2.5em;
 	float: left;
 }
 
@@ -187,7 +184,7 @@ small {
 .bottomnav a {
 	color: #aaa;
 	display: inline-block;
-	padding: 0 0.75em;
+	padding: 0 .75em;
 }
 
 /*About page*/
@@ -195,12 +192,9 @@ small {
 #sub-head {
 	font-family: "Yeseva One", serif;
 	font-size: 24px;
+	padding-bottom: .75em;
 	margin-top: 0;
-}
-
-div.line {
-	border-top: 1px solid #eee;
-	margin: 0 0 20px 0;
+	border-bottom: 1px solid #eee;
 }
 
 .larger {
@@ -208,10 +202,10 @@ div.line {
 }
 
 img#map {
-	width: 300px;
+	width: 33.333%;
 	border-left: 1px solid #eee;
-	margin: 0 0 20px 15px;
-	padding-left: 10px;
+	margin: 0 0 .75em .5em;
+	padding-left: .75em;
 	float: right;
 }
 
@@ -219,12 +213,12 @@ img#map {
 
 #shop-box {
 	width: 100%;
-	margin: 0 0 5px 0;
+	margin: 0 0 .5em 0;
 	background-color: #eee;
 }
 
 #shop-head {
-	padding-left: 20px;
+	padding-left: 1em;
 	float: left;
 }
 
@@ -235,13 +229,13 @@ img#map {
 
 .cart-items img {
 	height: 20px;
-	margin: 15px 0 15px 0;
+	margin: 1.25em 0 1.25em 0;
 	float: right;
 }
 
 .cart-items ul {
 	margin: 0;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 .5em;
 	float: right;
 }
 
@@ -264,57 +258,89 @@ span {
 }
 
 .spice-merch {
-	width: 234px;
-	background-color: #eee;
-	margin: 15px;
-	float: left;
+	box-sizing: border-box;
+	padding: 1.5%;
 }
 
-.spice-merch img {
-	width: 210px;
-	margin: 12px 12px 0 12px;
+.gray {
+	background-color: #eee;
+	padding: 5% 5% 0 5%;
+}
+
+.gray img {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .spice-price {
 	display: inline-block;
 	font-size: 10px;
-	margin: 7px 0 0 12px;
 }
 
-.spice-merch a {
+.gray a {
 	color: #4B0082;
 	font-size: 12px;
-	margin: 8px 12px 0 0;
 	float: right;
+}
+
+.merch-info {
+	line-height: 3em;
 }
 
 /*Contact page*/
 
 form {
-	padding: 10px 15px;
-}
-
-#firstbox {
-	padding-right: 200px;
-	float: left;
-	clear: left;
+	padding: 2%;
 }
 
 label {
 	display: block;
 	font-family: sans-serif;
 	font-size: 12px;
-	padding: 10px 0;
+	padding: 1em 0;
 }
 
 input[type="text"] {
-	width: 210px;
-	height: 24px;
-	margin-bottom: 15px;
+	width: 20em;
+	height: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 textarea {
 	width: 100%;
-	height: 70px;
+	height: 4em;
 	border-color: #ddd;
+}
+
+@media (max-width: 800px) {
+	img#map {
+		width: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+	img#map {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	#ham-icon {
+		display: block;
+		width: 10%;
+		padding: 3%;
+		float: right;
+	}
+
+	nav {
+		display: none;
+		float: none;
+		clear: both;
+	}
+
+	#ham-icon:hover + nav {
+		display: block;
+		font-size: 16px;
+	}
 }
